@@ -12,7 +12,7 @@ trilha = []
 
 for i in range(len(estados)):
     trilhaAutomato = automato.readline().split()
-    if len(trilhaAutomato) == len(alfabeto):
+    if len(trilhaAutomato) == len(alfabeto)+1:
         trilha.append(trilhaAutomato)
     else:
         raise Exception("Automato inválido")
@@ -41,20 +41,36 @@ def checkAceita(atualFinal):
 def findAtual(entrada, atual, aceito):
 
     for i in range(len(entrada)):
+
+        lastAtual = atual
         char = entrada[i]
 
         # achar o prox atual.
+        coluna = 0
+        linha = 0
         for x in range(len(estados)):
             if atual == str(estados[x]):
                 coluna = x
 
-        for x in range(len(alfabeto)):
-            if char == alfabeto[x]:
-                linha = x
+        if char == 'E':
+            linha = len(alfabeto)
+            restoInt = -(len(entrada) - i - 1)
+            if restoInt == 0:
+                break
+            restoentrada = entrada[restoInt:]
+            copiaResposta, aceito = findAtual(restoentrada, trilha[coluna][linha], aceito)
+            copiaAceita = checkAceita(copiaResposta)
+            if copiaAceita == True:
+                aceito = True
+        else:
+            for x in range(len(alfabeto)):
+                if char == alfabeto[x]:
+                    linha = x
 
         atual = trilha[coluna][linha]
 
         if atual == '0':
+            atual = lastAtual
             break
 
         if "," in atual:
