@@ -17,13 +17,7 @@ por exemplo o seguinte automato
 
 ![image](https://user-images.githubusercontent.com/50429333/171743328-3f8bfd95-90ab-4c56-b151-a4a6a1479ed4.png)
 
-q1 q2 q3
-a b
-q1
-q1
-0 q2 q3
-q2,q3 q3 0
-q1 0 0
+![image](https://user-images.githubusercontent.com/50429333/171744099-140b42a5-b74c-4610-85b2-0f65d3b4f4a7.png)
 
 sempre separando os valores por espaço
 
