@@ -4,10 +4,10 @@
 
 para configurar o automato é necessário passar algumas informações pro txt sendo elas:
 
-primeira linha: ESTADOS do automato
-segunda linha: ALFABETO do automato
-terceira linha: ESTADO INICIAL do automato
-quarta linha: ESTADO FINAL do automato
+primeira linha: ESTADOS do automato <br />
+segunda linha: ALFABETO do automato <br />
+terceira linha: ESTADO INICIAL do automato <br />
+quarta linha: ESTADO FINAL do automato <br />
 
 em sequencia a definição formal da tabela com os valores 
 
