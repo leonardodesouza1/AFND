@@ -18,6 +18,9 @@ por exemplo o seguinte automato
 
 ![image](https://user-images.githubusercontent.com/50429333/171743328-3f8bfd95-90ab-4c56-b151-a4a6a1479ed4.png)
 
+![image](https://user-images.githubusercontent.com/50429333/171745660-67422df8-2017-4b0b-b11d-0a98a38f1f1a.png)
+
+
 q1 q2 q3 --- ESTADOS <br />
 a b --- ALFABETO<br />
 q1 ---ESTADO INICIAL<br />
