@@ -24,9 +24,9 @@ q1 ---ESTADO INICIAL<br />
 q1 --- ESTADO FINAL<br />
 --- TABELA COM OS VALORES SENDO AS COLUNAS NA SEQUENCIA DO ALFABETO <br />
 A  B  E --- APENAS PARA DEMONSTRAR A COLUNA(NÃO PRECISA ESTAR NO ARQUIVO ESSA INFORMAÇÃO <br />
-0 q2 q3 <br />
-q2,q3 q3 0 <br />
-q1 0 0 <br />
+0 q2 q3 --- LINHA DO PRIMEIRO ESTADO(q1)<br />
+q2,q3 q3 0 --- LINHA DO SEGUNDO ESTADO(q2)<br />
+q1 0 0 --- LINHA DO TERCEIRO ESTADO(q3)<br />
 
 sempre separando os valores por espaço e quando tiver mais de uma possibilidade para cada alfabeto separar por virgula"," cada valor
 
