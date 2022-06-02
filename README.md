@@ -11,7 +11,8 @@ quarta linha: ESTADO FINAL do automato <br />
 
 em sequencia a definição formal da tabela com os valores 
 
-sendo quando não tem o caminho especificar com o numero 0 significando vazio e a letra E para o simbolo de cópia
+Quando não temos o caminho especificar com o numero 0 significando vazio <br /> 
+E a letra E para o simbolo de cópia 
 
 por exemplo o seguinte automato
 
